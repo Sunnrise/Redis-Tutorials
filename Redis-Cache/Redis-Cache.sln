@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{05946444-0CC8-407E-9766-4C7FAF245B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{05946444-0CC8-407E-9766-4C7FAF245B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{58232DDF-841B-4B76-99DA-BF2DC37FCDF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distributed.Caching", "Distributed.Caching\Distributed.Caching.csproj", "{58232DDF-841B-4B76-99DA-BF2DC37FCDF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Pub.Sub.Publisher", "Redis.Pub.Sub.Publisher\Redis.Pub.Sub.Publisher.csproj", "{2085B68C-BCCA-4D9D-9E79-6EB58889874F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber", "Redis.Pub.Sub.Subscriber\Redis.Pub.Sub.Subscriber.csproj", "{00583D11-B1A7-4A9C-A9F8-A084CB0DC6CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{58232DDF-841B-4B76-99DA-BF2DC37FCDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58232DDF-841B-4B76-99DA-BF2DC37FCDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58232DDF-841B-4B76-99DA-BF2DC37FCDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2085B68C-BCCA-4D9D-9E79-6EB58889874F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2085B68C-BCCA-4D9D-9E79-6EB58889874F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2085B68C-BCCA-4D9D-9E79-6EB58889874F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2085B68C-BCCA-4D9D-9E79-6EB58889874F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00583D11-B1A7-4A9C-A9F8-A084CB0DC6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00583D11-B1A7-4A9C-A9F8-A084CB0DC6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00583D11-B1A7-4A9C-A9F8-A084CB0DC6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00583D11-B1A7-4A9C-A9F8-A084CB0DC6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
